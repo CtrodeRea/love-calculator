@@ -1,0 +1,126 @@
+*, *::after, *::before {
+    
+    box-sizing: border-box;
+  }
+  :root{
+    --pink-tease: #FC88BA;
+    --pink-cattleya: #ffb2d1;
+    --fuchsia-fever:#fe559d;
+    --dogwood-rose:#d11760;
+
+  }
+  body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 1.5em;
+  margin: 0;
+  color:white;
+  }
+/* .bg {
+    background: url(1.png) center center cover no-repeat fixed;
+  } */
+  .wrapper{
+ background-color: var(--dogwood-rose);
+ padding-top:2rem;
+ padding-bottom: 7rem;
+  }
+ 
+  .intro h1, p, button{
+    padding: .7rem 0;
+  }
+.contentCal {
+    display: flex;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    flex-flow: row;
+    justify-content: center;
+  }
+  
+  label {
+    font-weight: 600;
+  }
+  .contentCal input{
+    width: 16rem;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    color: #ffffff;
+    outline: none;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    box-shadow: 0 10px 23px 10px #00000020;
+  }
+
+.contentCal input:focus {
+    width: 17rem;
+    background-color: #fff;
+    color: #ff4136;
+    transition: 0.3s;
+    font-weight: 700;
+  }
+  
+  .contentCal input:valid {
+    background-color: #fff;
+    color: #ff4136;
+    transition: 0.3s;
+    font-weight: 700;
+  }
+  
+  .contentCal::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    color: #ff4136;
+    padding: 15px 30px;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    font-weight: 600;
+    box-shadow: 0 10px 23px 10px #00000020;
+  }
+  button:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #f09fff;
+  }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-70px);
+}
+  .loveResult{
+    background-color: #fff;
+border: 0;
+    max-width: 500px;
+    width: 80%;
+    border-radius: 10px;
+    padding-bottom: 7rem;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+
+  }
+.result {
+    width: auto;
+    color: var(--dogwood-rose);
+    /* height: fit-content; */
+    /* border: 1px solid wheat; */
+
+  }
+  
+  .loveResult h2, p {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
