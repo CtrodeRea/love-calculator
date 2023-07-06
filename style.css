@@ -24,6 +24,7 @@
  background-color: var(--dogwood-rose);
  padding-top:2rem;
  padding-bottom: 7rem;
+ border: 1px solid black;
   }
  
   .intro h1, p, button{
